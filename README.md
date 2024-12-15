@@ -63,6 +63,7 @@ Go é uma linguagem de programação de código aberto que facilita a criação 
 Librdkafka é uma implementação da biblioteca C/C++ do protocolo Apache Kafka, contendo suporte para Produtor e Consumidor. Foi projetado com confiabilidade na entrega de mensagens e alto desempenho em mente, com números atuais superiores a 1 milhão de mensagens/segundo para o produtor e 3 milhões de mensagens/segundo para o consumidor.
 
 - [librdkafka](https://github.com/confluentinc/librdkafka)
+  - [Doc](https://docs.confluent.io/platform/current/clients/librdkafka/html/md_INTRODUCTION.html)
 
 ## Comandos
 
@@ -205,5 +206,3 @@ Para ver os detalhes de um grupo de consumidores, execute o comando abaixo.
 ```bash
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group x
 ```
-
-
